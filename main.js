@@ -12,5 +12,4 @@ image.addEventListener('mousemove',e =>{
     const vertical = (e.clientY - y) / height*100
     image.style.setProperty('--x',horizontal+'%')
     image.style.setProperty('--y',vertical+'%')
-    console.log(x,y,height,width);
 })

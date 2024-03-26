@@ -21,6 +21,7 @@ body{
     background-color: blue;
     position: relative;
     overflow: hidden;
+    cursor: zoom-in;
 }
 .img-container >img{
     object-fit: cover;
